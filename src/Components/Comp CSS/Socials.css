@@ -1,0 +1,42 @@
+.socialDesign{ 
+  display: flex;
+  align-items: center;
+  
+    
+  }
+  
+.socialDesign li {
+  animation: socialLogo-spin 2 1s alternate;
+  /* pointer-events: none;  //this is command stops all interactions from the user */
+  
+  }
+
+.socialDesign li a {
+  justify-content: center;
+  align-content: center;
+  font-size: 22px;
+  color: #282c34;
+  
+}
+
+.socialDesign li a :hover {
+  color: azure;
+  
+}
+
+  
+
+
+  @keyframes socialLogo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+  }
+
+
+
+  

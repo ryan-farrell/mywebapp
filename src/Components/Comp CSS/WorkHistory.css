@@ -1,0 +1,68 @@
+.workH {
+    padding: 2px 25px 30px 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.workH h2 {
+    padding: 0px;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.workH h3 {
+    padding: 0px;
+    
+
+
+}
+
+div .workH p {
+    padding: 0px 60px 0px 60px;
+   
+
+}
+
+.workH div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.buttondiv { 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 30px 10px;
+    
+}
+
+.button {
+    font-family: 'Audiowide';
+    text-align: center;
+    
+}
+
+.timeline {
+    padding: 10px 0px 0px 10px;
+    background: rgb(238, 100, 100);
+    margin: 0px;
+    
+    border: 2px solid rgba(124, 129, 129, 0.938);;
+    width: 1300px;
+    height: 14px;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+.p1 {
+    height: auto;
+    width: auto;
+    background: chartreuse;
+  
+}
