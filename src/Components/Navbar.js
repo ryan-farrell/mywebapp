@@ -16,7 +16,7 @@ class Nav extends React.Component {
             <li><p>Home</p></li>
             <li><p>Contacts</p></li>
             <li><p>Projects</p></li>
-            <li><p>Old Style CV</p></li>
+            <li><p>Old CV</p></li>
         </ul>
 
 <SocialsButtons/>

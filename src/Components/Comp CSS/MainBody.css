@@ -1,25 +1,30 @@
 
 .header {
+    height: 320px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    flex: 1 0 500px;
+    flex:  0 500px;
     padding: 1px 1px 1px 1px;
     width: 100%;
 }
 
+
 img {
-    height: 260px;
-    width: 260px;
+    display: flex;
+    position: absolute;
+    height: 300px;
+    width: 390px;
     border: 10px solid rgba(124, 129, 129, 0.938);
     border-radius: 80%;
+    
+} 
 
 
-}
+.backImage:hover {
+    opacity : 0;
+    cursor: pointer;
+    transition: opacity 1s ease-in;
 
-img:hover {
-    animation: profile-twirl 1 3s ease;
-    backface-visibility: hidden;
 }
 
 
@@ -32,15 +37,4 @@ img:hover {
 .header p ul li {
     list-style-type: none;
     text-decoration: none;
-}
-
-@keyframes profile-twirl {
-    from {
-    transform: rotate3d(rotateY 0deg);
-    }
-    to {
-    transform: rotate3d(rotateY 360deg);
-
-    }
-  
 }
