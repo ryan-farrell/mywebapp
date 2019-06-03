@@ -3,17 +3,16 @@
     height: 320px;
     display: flex;
     flex-direction: row;
-    flex:  0 500px;
+    
     padding: 1px 1px 1px 1px;
     width: 100%;
 }
 
-
 img {
-    display: flex;
+
     position: absolute;
     height: 300px;
-    width: 390px;
+    width: 26%;
     border: 10px solid rgba(124, 129, 129, 0.938);
     border-radius: 80%;
     
@@ -24,17 +23,32 @@ img {
     opacity : 0;
     cursor: pointer;
     transition: opacity 1s ease-in;
-
+    
 }
 
 
-.header p {
-    list-style-type: none;
+.textBox {
+    display: flex;
+    flex-grow: 1;
+    margin-left: 420px;
    
+
+
+
+}
+
+.textBox p {
+    list-style-type: none;
+    justify-content: center;
+    flex-basis: 80%;
+    font-size: 20px;
+    
 }
 
 
-.header p ul li {
+.textBox ul {
     list-style-type: none;
     text-decoration: none;
+    flex-basis: 20%;
+    font-size: 20px;
 }
